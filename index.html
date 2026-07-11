@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre en Kharla Cosmetics nuestra selección experta de productos de belleza. Filtramos lo mejor en cuidado capilar, facial y corporal para simplificar tu rutina.">
+    <title>Kharla Cosmetics Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Kharla Cosmetics Online</h1>
+        <h2>Tienda por Departamentos</h2>
+        <nav>
+            <ul>
+                <li><a href="capilar.html">Cuidado Capilar</a></li>
+                <li><a href="facial.html">Cuidado Facial</a></li>
+                <li><a href="corporal.html">Cuidado Corporal</a></li>
+                <li><a href="fragancias.html">Fragancias</a></li>
+            </ul>
+        </nav>
+        <p><em>Calidad seleccionada pensando en tu estilo de vida.</em></p>
+        
+        <div class="imagenes-container">
+            <img src="imagenes/kharla_azul.webp" alt="fotografía de kharla" width="300">
+            <img src="imagenes/tienda_online.webp" alt="la tienda online" width="300" height="300">
+        </div>
+    </header>
+
+    <main>
+        <section class="acerca-de">
+            <h2>Selección Experta: El filtro de calidad que tu piel y cabello necesitaban</h2>
+            <p>¿Alguna vez has sentido que elegir un producto de cuidado personal es una tarea agotadora? Queremos cambiar eso. En Kharla Cosmetics, actuamos como tu filtro experto para simplificar tu rutina diaria.</p>
+
+            <p>Hemos diseccionado cientos de opciones para traerte solo aquellas que realmente ofrecen soluciones reales y eficaces. Somos la plataforma de recomendación especializada que prioriza tu bienestar por encima de las tendencias pasajeras. Descubre qué productos han pasado nuestro exigente "filtro de calidad" y transforma tu rutina.En el mundo del cuidado personal, más opciones no siempre significan mejores resultados. En Kharla Cosmetics, nuestra misión es clara: filtrar el ruido para ofrecerte solo lo mejor en cuidado capilar, facial y corporal.</p>
+
+            <p>Actuamos como un escudo contra las malas compras, seleccionando artículos con altos estándares de innovación y seguridad. ¿Buscas eficacia probada? Estás en el lugar correcto. Únete a nuestra comunidad de compradores inteligentes que priorizan su bienestar.</p>
+
+            <p>Nota: Seleccionamos cada producto con rigor. Al comprar a través de nuestros enlaces, podemos recibir una pequeña comisión sin costo extra para ti.</p>
+            
+            
+        </section>
+        <section id="departamentos" class="seccion-departamentos">
+            <h2>Selección Experta por Departamento</h2>
+            <p>Recuerda esta es una tienda por departamentos, selecciona a que parte de la tienda quires ir</p>
+            <div class="categorias-grid">
+            <figure>
+                <a href="capilar.html">
+                    <img src="imagenes/cuidado_capilar.webp" alt="Cuidado Capilar">
+                    <figcaption>Cuidado Capilar</figcaption>
+                </a>
+            </figure>
+             <figure>
+                <a href="facial.html">
+                    <img src="imagenes/cuidado_facial.webp" alt="Cuidado facial">
+                    <figcaption>Cuidado Facial</figcaption>
+                </a>
+            </figure>
+             <figure>
+                <a href="corporal.html">
+                    <img src="imagenes/cuidadocorporal.webp" alt="Cuidado corporal">
+                    <figcaption>Cuidado Corporal</figcaption>
+                </a>
+            </figure>
+             <figure>
+                <a href="fragancias.html">
+                    <img src="imagenes/fragancias_colonias.webp" alt="fragancias y colonias">
+                    <figcaption>Fragancias y Colonias</figcaption>
+                </a>
+            </figure>
+            </div>
+        </section>
+
+        <section id="contacto">
+  <h2>¡Contáctanos!</h2>
+  <p>¿Tienes dudas sobre nuestros productos? <strong>Escríbenos y nuestro equipo te responderá pronto.</strong></p>
+  
+  <form action="https://formspree.io/f/xzdlnlaq" method="POST">
+    <div class="form-group">
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="email">Correo electrónico:</label><br>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="mensaje">Escribe tu mensaje</label><br>
+      <textarea id="mensaje" name="mensaje" rows="4" style="width: 100%; max-width: 300px;" required></textarea>
+    </div>
+    <br>
+    <button type="submit">Enviar</button>
+  </form>
+  </section>
+
+    </main>
+    <footer>
+        <p><strong>¡Siempre algo nuevo! 💖</strong></p>
+        <p><strong>Actualizamos nuestros departamentos constantemente para ofrecerte lo mejor en belleza.<br>¡Visítanos seguido y descubre las sorpresas que tenemos para ti!</strong></p>
+    </footer>
+
+   <script>
+  // Escuchamos el evento de envío directamente en el formulario
+  document.querySelector('form').addEventListener('submit', function(event) {
+    // Referencia al formulario que se acaba de enviar
+    const form = event.target;
+    setTimeout(() => {
+      form.reset();
+    }, 500);
+  });
+</script>
+
+</body>
+</html>
