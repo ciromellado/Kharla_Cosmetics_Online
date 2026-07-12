@@ -145,3 +145,23 @@ img {
         padding: 10px;
     }
 }
+.boton-compra {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #d4af37; /* Un color dorado elegante, ideal para cosmética */
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center;
+    transition: background-color 0.3s ease; /* Un efecto suave al pasar el mouse */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Efecto al pasar el mouse por encima */
+.boton-compra:hover {
+    background-color: #b8962d; /* Un tono un poco más oscuro al pasar el mouse */
+}
