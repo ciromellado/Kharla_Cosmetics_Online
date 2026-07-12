@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ciromellado.github.io/Kharla_Cosmetics_Online/sitemap.xml
