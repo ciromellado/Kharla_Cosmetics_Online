@@ -155,7 +155,7 @@ img {
     border-radius: 5px; /* Bordes redondeados */
     text-align: center;
     transition: background-color 0.3s ease; /* Un efecto suave al pasar el mouse */
-    border: none;
+    border: 1px solid #000000;
     cursor: pointer;
     font-size: 16px;
     margin-top: 10px;
