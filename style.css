@@ -165,3 +165,16 @@ img {
 .boton-compra:hover {
     background-color: #b8962d; /* Un tono un poco más oscuro al pasar el mouse */
 }
+.btn-small { 
+            background-color: #556B2F; 
+            color: white; 
+            padding: 12px 25px; 
+            text-decoration: none; 
+            border-radius: 25px; 
+            font-weight: bold;
+            font-size: 14px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+  .btn-small:hover {
+            background-color: #A66D57;
+        }
