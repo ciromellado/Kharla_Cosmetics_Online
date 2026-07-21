@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kharla Cosmetics | Nuestros Favoritos y Rutinas de Belleza</title>
+    <meta name="description" content="Descubre productos de belleza seleccionados por expertos. Skincare, maquillaje y cuidado capilar de alta calidad.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; padding: 0; color: #333; background-color: #fafafa; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        
+        /* Banner Principal */
+        .hero { text-align: center; margin-bottom: 40px; }
+        .hero img { width: 100%; height: auto; border-radius: 10px; }
+        
+        /* Sección de Beneficios */
+        .benefits { display: flex; justify-content: space-around; flex-wrap: wrap; text-align: center; margin: 50px 0; }
+        .benefit-item { width: 30%; min-width: 250px; margin-bottom: 20px; }
+        .benefit-item img { width: 100px; height: 100px; object-fit: contain; }
+        
+        /* Sección de Productos */
+        .products { 
+            display: flex; 
+            justify-content: center; 
+            flex-wrap: wrap; 
+            gap: 30px; 
+            padding: 20px;
+        }
+        
+        .product-card { 
+            background: white; 
+            padding: 25px; 
+            border-radius: 15px; 
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            width: 300px; 
+            text-align: center; 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #f0f0f0;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+
+        .product-card img { 
+            width: 100%; 
+            height: 250px; 
+            object-fit: contain; 
+            border-radius: 10px; 
+            margin-bottom: 15px;
+        }
+
+        .product-card h3 {
+            font-family: 'Playfair Display', serif;
+            color: #3D2817;
+            margin: 10px 0;
+            font-size: 22px;
+        }
+
+        .product-card p {
+            color: #6B5B4F;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .btn-small { 
+            background-color: #C88E79; 
+            color: white; 
+            padding: 12px 25px; 
+            text-decoration: none; 
+            border-radius: 25px; 
+            font-weight: bold;
+            font-size: 14px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-small:hover {
+            background-color: #A66D57;
+        }
+
+        /* Testimonios */
+        .testimonials {
+            background-color: #f4ece6;
+            padding: 50px 20px;
+            margin-top: 60px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .testimonial-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .testimonial-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+            text-align: left;
+        }
+        .testimonial-card p {
+            font-style: italic;
+            color: #555;
+            font-size: 14px;
+        }
+        .testimonial-card span {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+            color: #3D2817;
+            font-size: 13px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 60px;
+            border-top: 1px solid #e0e0e0;
+            color: #6B5B4F;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero container">
+        <a href="https://ciromellado.github.io/Kharla_Cosmetics_Online/">
+            <img src="img/hero_banner.webp" alt="Banner Kharla Cosmetics" width="1160" height="400">
+        </a>
+    </header>
+
+    <main class="container">
+        <section class="benefits">
+            <div class="benefit-item">
+                <img src="img/icono-hidratacion.webp" alt="Hidratación" width="100" height="100">
+                <h3>Hidratación Profunda</h3>
+            </div>
+            <div class="benefit-item">
+                <img src="img/icono-original.webp" alt="Original" width="100" height="100">
+                <h3>100% Original</h3>
+            </div>
+            <div class="benefit-item">
+                <img src="img/icono-envio.webp" alt="Envío" width="100" height="100">
+                <h3>Envío Rápido</h3>
+            </div>
+        </section>
+
+        <section>
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; color: #3D2817; margin-top: 60px; font-size: 36px;">Nuestros Favoritos</h2>
+            <p style="text-align: center; color: #6B5B4F; margin-bottom: 40px;">Selección experta para transformar tu belleza</p>
+            
+            <div class="products">
+                <div class="product-card">
+                    <img src="img/anua3step.webp" alt="Set Anua 3 Pasos" width="250" height="250">
+                    <h3>Set Anua 3 Pasos</h3>
+                    <p>Rutina coreana para una piel de vidrio, luminosa y sin impurezas.</p>
+                    <a href="https://amzn.to/44oe1OE" class="btn-small" target="_blank" rel="noopener noreferrer sponsored">Ver Detalles</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/color_eye.webp" alt="Paleta de Sombras Nudes" width="250" height="250">
+                    <h3>Paleta Matte Nudes 2</h3>
+                    <p>6 tonos fríos para crear el Smokey Eye perfecto en 5 minutos.</p>
+                    <a href="https://amzn.to/4wbv42A" class="btn-small" target="_blank" rel="noopener noreferrer sponsored">Ver Detalles</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/herbal_essence.webp" alt="Shampoo Herbal Essences" width="250" height="250">
+                    <h3>Set Herbal Essences</h3>
+                    <p>Rosa Mosqueta y Maracuyá para un brillo extremo y sin frizz.</p>
+                    <a href="https://amzn.to/4pzFRkL" class="btn-small" target="_blank" rel="noopener noreferrer sponsored">Ver Detalles</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2 style="font-family: 'Playfair Display', serif; color: #3D2817; margin-top: 0; font-size: 30px;">Lo que dicen nuestras clientas</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"El set de Anua transformó mi piel por completo. Llegó súper rápido y se nota que es 100% original. ¡Me encantó!"</p>
+                    <span>— Sofía M. ⭐⭐⭐⭐⭐</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"La paleta de sombras pigmenta hermoso y los colores son súper combinables. La atención de Kharla Cosmetics es un 10."</p>
+                    <span>— Valentina R. ⭐⭐⭐⭐⭐</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <p><strong>Aviso de Enlaces de Afiliados - Kharla Cosmetics</strong><br>
+        Esta página contiene enlaces de afiliados. Esto significa que podemos recibir una pequeña comisión si realizas una compra a través de ellos, sin costo adicional para ti. Gracias por tu apoyo.</p>
+        <p><strong>Kharla Cosmetics Online</strong> — Tu rutina de belleza prémium seleccionada por expertos.</p>
+        <p style="font-size: 12px; margin-top: 10px;">© 2026 Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
